@@ -3,9 +3,14 @@
 This demo app is built using Spring Tool Suite 4 and docker with OpenJDK:11 built based on the +
 tutorial specified here in this https://www.youtube.com/watch?v=FzwIs2jMESM[Youtube Link].
 
-NOTE: When using Docker Desktop with latest version which is v4.0.0 and Docker engine version as v20.10.8.You need to disable buildkit feature (which is enabled by default) in order to build the image successfully. 
-
-Use the below configuration to disable the buildkit feature in your users directory e.g. ${USERS}/USERNAME/.docker/daemon.json
+:note-caption: :information_source:
+[NOTE]
+====
+When using Docker Desktop with latest version which is v4.0.0 and Docker engine version as v20.10.8. + 
+You need to disable buildkit feature (which is enabled by default) in order to build the image successfully. 
+====
+Use the below configuration to disable the buildkit feature in your users directory e.g. "${USERS}/USERNAME/.docker/daemon.json". + 
+Otherwise you can Open Docker Desktop for Windows and Click -> Settings -> Docker Engine -> You can edit docker configuration file. 
 
 [source,json]
 "features": {
