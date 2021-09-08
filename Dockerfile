@@ -10,6 +10,5 @@ COPY bin/org/examples/docker/demo/MainApp.class /app/org/examples/docker/demo/Ma
 #set the workdirectory for future commands 
 WORKDIR /app
 
-RUN dir /app
 #execute the mainClass from cmd. 
 CMD ["java","org.examples.docker.demo.MainApp"]
