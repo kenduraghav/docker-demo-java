@@ -23,3 +23,16 @@ Otherwise you can Open Docker Desktop for Windows and Click -> Settings -> Docke
     }
 
 For more on docker buildkit failure refer this  https://stackoverflow.com/questions/67391438/docker-build-failed-to-compute-cache-key[link]
+
+
+To build and run the docker image use the below commands 
+
+Build Command:
+====
+docker build -t demo .
+====
+
+Run Command:
+====
+docker run hello-docker:1.0  .
+====
